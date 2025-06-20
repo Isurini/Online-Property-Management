@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+    <servlet>
+        <servlet-name>InsertPropertyServlet</servlet-name>
+        <servlet-class>property.InsertPropertyServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>InsertPropertyServlet</servlet-name>
+        <url-pattern>/InsertPropertyServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>GetAllProperties</servlet-name>
+        <servlet-class>property.GetAllProperties</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GetAllProperties</servlet-name>
+        <url-pattern>/GetAllProperties</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UpdatePropertyServlet</servlet-name>
+        <servlet-class>property.UpdatePropertyServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UpdatePropertyServlet</servlet-name>
+        <url-pattern>/UpdatePropertyServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DeletePropertyServlet</servlet-name>
+        <servlet-class>property.DeletePropertyServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DeletePropertyServlet</servlet-name>
+        <url-pattern>/DeletePropertyServlet</url-pattern>
+    </servlet-mapping>
+
+</web-app>

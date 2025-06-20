@@ -1,0 +1,79 @@
+@charset "UTF-8";
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url('../Images/bg2.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    
+    
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh; /* height → min-height */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* top-align */
+    padding-top: 60px; 
+    margin-top: 3px; /* space from top */
+}
+
+.inquiry-form {
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 50px;
+    border-radius: 10px;
+    width: 500px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.form-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo2 {
+    width: 200px;
+}
+
+.inquiry-form label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.inquiry-form input,
+.inquiry-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+}
+
+.inquiry-form button {
+    width: 100%;
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #527870;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.inquiry-form button:hover {
+    background-color: #3f615b;
+}
+
+.details-page {
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.95);
+    margin: 100px auto;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+

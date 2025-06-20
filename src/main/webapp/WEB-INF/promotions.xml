@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+    <servlet>
+        <servlet-name>InsertPromotionServlet</servlet-name>
+        <servlet-class>promotions.InsertPromotionServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>InsertPromotionServlet</servlet-name>
+        <url-pattern>/InsertPromotionServlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>GetAllPromotions</servlet-name>
+        <servlet-class>promotions.GetAllPromotions</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GetAllPromotions</servlet-name>
+        <url-pattern>/GetAllPromotions</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>UpdatePromotionServlet</servlet-name>
+        <servlet-class>promotions.UpdatePromotionServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UpdatePromotionServlet</servlet-name>
+        <url-pattern>/UpdatePromotionServlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>DeletePromotionServlet</servlet-name>
+        <servlet-class>promotions.DeletePromotionServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DeletePromotionServlet</servlet-name>
+        <url-pattern>/DeletePromotionServlet</url-pattern>
+    </servlet-mapping>
+    
+    
+    
+</web-app>

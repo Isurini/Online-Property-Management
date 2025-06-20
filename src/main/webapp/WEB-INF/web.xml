@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-inst..." xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web..." id="WebApp_ID" version="3.0">
+	
+	<servlet>
+		<servlet-name>addCustomer1</servlet-name>
+		<servlet-class>servlet.addCustomer1</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>addCustomer1</servlet-name>
+		<url-pattern>/addcus</url-pattern>
+	
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>login</servlet-name>
+		<servlet-class>servlet.login</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>login</servlet-name>
+		<url-pattern>/cuslog</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	<servlet>
+		<servlet-name>showInquire</servlet-name>
+		<servlet-class>servlet.showInquire</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>showInquire</servlet-name>
+		<url-pattern>/addbu</url-pattern>
+	
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>updateBuyerDetails</servlet-name>
+		<servlet-class>servlet.updateBuyerDetails</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>updateBuyerDetails</servlet-name>
+		<url-pattern>/updatebu</url-pattern>
+	
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>deleteInquireDetails</servlet-name>
+		<servlet-class>servlet.deleteInquireDetails</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>deleteInquireDetails</servlet-name>
+		<url-pattern>/deletebu</url-pattern>
+	
+	</servlet-mapping>
+	
+</web-app> 

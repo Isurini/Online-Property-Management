@@ -1,0 +1,83 @@
+@charset "UTF-8";
+* {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+ }
+body {
+  background-image: url("../Images/image4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-box {
+    margin-top: 50px;
+    padding: 20px;
+    box-shadow: 0px 0px 15px #ffff;
+    border-radius: 2px;
+    text-align: center;
+    width: 350px;
+}
+
+.login-box h1{
+    margin-bottom: 20px;
+}
+.login-box input[type="email"],
+.login-box input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    margin-top: 0.8rem;
+}
+
+.login-box button {
+    width:100%;
+    font-size: 1rem;
+    padding: 0.75rem;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 0.5rem;
+    cursor: pointer;
+}
+.login-box input[type="email"],
+.login-box input[type="password"] {
+    cursor: pointer;
+}
+.login-box input[type="email"]:hover,
+.login-box input[type="password"]:hover{
+    transform: scale(1.1);
+}
+.login-box button:hover {
+    background-color: #007BFF;
+}
+.options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    font-size:0.8rem;
+}
+.member{
+    font-size:0.8rem;
+    margin-top:1rem;
+}
+body {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
